@@ -16,7 +16,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-public class RunicPower extends AbstractPower implements CloneablePowerInterface, NonStackablePower {
+public class RunicPower extends AbstractPower implements CloneablePowerInterface {
     public static final String POWER_ID = CardAugmentsMod.makeID(RunicPower.class.getSimpleName());
     private static final PowerStrings TEXT = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
 
